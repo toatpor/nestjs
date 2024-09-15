@@ -1,0 +1,9 @@
+@startDate=2024-09-15T07:36:46.346Z
+@endDate=2024-09-15T07:36:46.346Z
+GET http://localhost:3000/post/
+ ?startDate={{startDate}}
+ &endDate={{endDate}}
+ &limit=2
+ &page=2
+
+

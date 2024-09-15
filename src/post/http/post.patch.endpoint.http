@@ -1,0 +1,12 @@
+
+PATCH http://localhost:3000/post
+Content-Type: application/json
+
+{
+    "id": 4,
+    "title": "show me your pussy",
+    "postType": "post",
+    "status": "draft",
+    "content": "dick",
+    "tags": [2,3] 
+}

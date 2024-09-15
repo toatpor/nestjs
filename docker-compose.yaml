@@ -1,0 +1,21 @@
+version: '3.9'
+services:
+  postgres:
+    container_name: prostgres_container
+    image: postgres
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USER=nestjs
+      - POSTGRES_DB=learnNest
+      - POSTGRES_PASSWORD=Toatpor1718
+
+    volumes:
+      - ./docker-volumes/postgres:/var/lib/postgresql
+    networks:
+      - pg
+
+networks:
+  pg:
+    name: postgres

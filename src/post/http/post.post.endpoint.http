@@ -1,0 +1,19 @@
+
+POST http://localhost:3000/post
+Content-Type: application/json
+
+{   
+    "title": "What's new with Nest.js",
+    "postType": "post",
+    "slug": "new-with-nestjs42",
+    "status": "draft",
+    "content": "test content",
+    "schema": "{\r\n \"@context\": \"https:\/\/schme.org\", \r\n \"@type\": \"Person\" \r\n }",
+    "featuredImageUrl": "http://localhost.com/images/image1.jpg",
+    "tags": ["nestjs", "typescript"],
+ "publishOn": "2024-03-16T07:46:32+0000",
+    "metaOptions": { "metaValue": "{\"sidebarEnabled\": true, \"footerActive\": true }"},
+    "authorId": 1,
+    "tags": [2,3]
+    
+}
